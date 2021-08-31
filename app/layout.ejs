@@ -7,21 +7,76 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title><%- title %></title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="./assets/style/all.css">
 </head>
 
 <body>
-  <h1>第八周主線難產中...
-    <div class="spinner-border" role="status">
-      <span class="visually-hidden">Loading...</span>
+  <div class="header bg-primary pt-4 pb-4 position-fixed w-100" style="z-index:10">
+    <div class="container d-flex justify-content-between align-items-center">
+      <a class="logo" href="#">
+        <img src="https://github.com/hexschool/webLayoutTraining1st/blob/master/yoga-week8/DOYOGA-logo.png?raw=true"
+          alt="">
+      </a>
+      <div class="menu d-none d-lg-block">
+        <a class="text-dark me-6" href="#">課程介紹</a>
+        <a class="text-dark me-6" href="#">瑜珈空間</a>
+        <a class="text-dark" href="#">當月課表</a>
+      </div>
+      <div class="link d-none d-lg-block">
+        <button type="button" class="btn btn-outline-secondary me-3">立即預約</button>
+        <button type="button" class="btn btn-outline-secondary">聯絡我們</button>
+      </div>
     </div>
-  </h1>
+  </div>
+
+  <div class="d-none d-lg-block">
+    <div class="banner-icon position-fixed top-50 end-0 translate-middle-y d-flex flex-column me-3">
+        <a class="mb-2" href="#"><img
+                src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/8a71940d3cd9c932e7126e75e093f68f3a861b79/week3/icon-fb.svg"
+                alt=""></a>
+        <a class="mb-2" href="#"><img
+                src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/8a71940d3cd9c932e7126e75e093f68f3a861b79/week3/icon-line.svg"
+                alt=""></a>
+        <a href="#"><img
+                src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/8a71940d3cd9c932e7126e75e093f68f3a861b79/week3/icon-ig.svg"
+                alt=""></a>
+    </div>
+</div>
 
   <%- contents %>
 
-  <footer class="footer">
-    footer
-  </footer>
+    <div class="bg-secondary border-bottom">
+      <div class="container">
+        <div class="row justify-content-between align-items-center pb-6 pt-6">
+          <h2 class="col-12 col-md-7 text-white">現在訂閱，獲得課程優惠碼！</h2>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="input-group">
+              <input type="email" class="form-control" placeholder="輸入您的電子信箱" aria-label="email"
+                aria-describedby="button-addon2">
+              <button class="btn btn-light text-white" type="button" id="button-addon2">訂閱</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="bg-secondary pt-6 pb-6">
+      <div class="position-relative container d-flex justify-content-between">
+        <div class="d-flex flex-column">
+          <a class="logo mb-2" href="#"><img src="https://github.com/hexschool/webLayoutTraining1st/blob/master/yoga-week8/DOYOGA.png?raw=true" alt=""></a>
+          <a class="mb-2" href="#">課程介紹</a>
+          <a class="mb-2" href="#">瑜珈空間</a>
+          <a class="mb-2 mb-md-0" href="#">當月課表</a>
+        </div>
+        <div class="d-flex">
+          <a class="me-2" href="#"><img src="./assets/images/fb-icon.svg" alt=""></a>
+          <a class="me-2" href="#"><img src="./assets/images/ig-icon.svg" alt=""></a>
+          <a href="#"><img src="./assets/images/line-icon.svg" alt=""></a>
+        </div>
+        <p class="d-none d-md-block position-absolute bottom-0 start-50 translate-middle-x text-white">© 2021. All Rights Reserved.</p>
+      </div>
+      <p class="container d-md-none text-white">© 2021. All Rights Reserved.</p>
+    </div>
 
   <script src="./assets/js/vendors.js"></script>
   <script src="./assets/js/all.js"></script>

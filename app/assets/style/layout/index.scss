@@ -1,0 +1,31 @@
+.banner{
+    height: 100vh;
+    background: url(https://images.unsplash.com/photo-1612157777902-5382bc6e864b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80)center bottom;
+    background-size: cover;
+}
+
+.banner-icon img{
+    width: 48px;
+    height: 48px;
+}
+
+.feel img{
+    object-fit:cover;
+    height: 420px;
+    border-radius: 16px;
+    @include media-breakpoint-up(md){
+        height: 252px;
+    }
+    @include media-breakpoint-up(lg){
+        height: 420px;
+    }
+}
+
+.teacher{
+    border-radius: 16px;
+    padding: 24px 32px;
+    img{
+        width: 68px;
+    }
+
+}
