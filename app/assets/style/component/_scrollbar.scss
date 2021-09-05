@@ -1,0 +1,19 @@
+.scrollbar {
+    overflow: auto;
+
+    img {
+        width: 445px;
+    }
+
+    &::-webkit-scrollbar {
+        height: 8px;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background-color: #707070;
+    }
+}
+
+.scrollbar-grid-img img{
+    height: 150px;
+}

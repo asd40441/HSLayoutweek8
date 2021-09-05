@@ -1,8 +1,11 @@
 @import "../../../node_modules/bootstrap/scss/functions";
 @import "./helpers/variables";
+@import "./helpers/utilities";
 @import "../../../node_modules/bootstrap/scss/bootstrap";
 
 @import "./base/base";
 @import "./component/logo";
+@import "./component/scrollbar";
+@import "./component/swiper";
 
-@import './layout/index'
+@import './layout/index';
