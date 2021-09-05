@@ -9,10 +9,44 @@
   height: 48px;
 }
 
-.card img {
-  height: 420px;
+.feel img {
   -o-object-fit: cover;
      object-fit: cover;
+  height: 420px;
+  border-radius: 16px;
+}
+
+@media (min-width: 768px) {
+  .feel img {
+    height: 252px;
+  }
+}
+
+@media (min-width: 992px) {
+  .feel img {
+    height: 420px;
+  }
+}
+
+.teacher-card {
+  border-radius: 16px;
+  padding: 24px 32px;
+}
+
+.teacher-card img {
+  width: 68px;
+}
+
+.plan {
+  padding: 0 15px;
+}
+
+.plan-img {
+  height: 250px;
+}
+
+.plan-img img {
+  border-radius: 0px;
 }
 
 /*# sourceMappingURL=index.css.map */

@@ -1,1 +1,1 @@
-{"version":3,"sources":["all.js"],"names":[],"mappings":"AAAA","file":"all.js","sourcesContent":[""]}
+{"version":3,"sources":["all.js"],"names":["swiper","Swiper","navigation","nextEl","prevEl"],"mappings":";;AAAA,IAAIA,MAAM,GAAG,IAAIC,MAAJ,CAAW,WAAX,EAAwB;AACjCC,EAAAA,UAAU,EAAE;AACRC,IAAAA,MAAM,EAAE,qBADA;AAERC,IAAAA,MAAM,EAAE;AAFA;AADqB,CAAxB,CAAb","file":"all.js","sourcesContent":["var swiper = new Swiper(\".mySwiper\", {\n    navigation: {\n        nextEl: \".swiper-button-next\",\n        prevEl: \".swiper-button-prev\",\n    },\n});"]}
